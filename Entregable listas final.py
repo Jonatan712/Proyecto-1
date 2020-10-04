@@ -45,7 +45,11 @@ elif(k == 2):
 else:
     print("Error")
 
-
+'''
+El codigo representa una base de datos que por el momento solo recibe las caracteristicas de dos empleados, esto se puede cambiar
+agregando un par de literales mas para que el proceso sea infinito, pero solo se reciben los datos, y al final solo se escribe el
+numero relacionado con la persona y con esto se imprime toda la info.
+''' 
 
 
     
