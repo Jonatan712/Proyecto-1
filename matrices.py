@@ -36,27 +36,31 @@ while m <= numero:
     g += 1
     m += 1
 
-k = int(input())
 
-if(k == 1):
-    print("Nombre: ",final[0][0])
-    print("Edad: ", final[0][1])
-    print("Sexo: ", final[0][2])
-    print("Estado civil: ", final[0][3])
-    print("Cargo en la empresa: ", final[0][4])
-    print("Nacionalidad: ", final[0][5])
-    print("Numero de contacto: ", final[0][6])
-    
-elif(k == 2):
-    print("Nombre: ",final[1][0])
-    print("Edad: ", final[1][1])
-    print("Sexo: ", final[1][2])
-    print("Estado civil: ", final[1][3])
-    print("Cargo en la empresa: ", final[1][4])
-    print("Nacionalidad: ", final[1][5])
-    print("Numero de contacto: ", final[1][6])
-else:
-    print("Error")
+p = 1
+k = int(input())
+h = 0
+f = 0
+while True:
+    if(k == p):
+        print("Nombre: ",final[h][f])
+        f+=1
+        print("Edad: ", final[h][f])
+        f+=1
+        print("Sexo: ", final[h][f])
+        f+=1
+        print("Estado civil: ", final[h][f])
+        f+=1
+        print("Cargo en la empresa: ", final[h][f])
+        f+=1
+        print("Nacionalidad: ", final[h][f])
+        f+=1
+        print("Numero de contacto: ", final[h][f])
+        break
+    else:
+        p+=1
+        h+=1
+        
 
 '''
 El codigo representa una base de datos que por el momento solo recibe las caracteristicas de dos empleados, esto se puede cambiar
@@ -64,6 +68,6 @@ agregando un par de literales mas para que el proceso sea infinito, pero solo se
 numero relacionado con la persona y con esto se imprime toda la info.
 
 Este codigo es casi igual que el pasado solo que le agregue un par de cosas para que tuviera un mejor funcionamiento, y para que 
-este fuera totalmente automatico
+este fuera totalmente automatico.
 ''' 
 
