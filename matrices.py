@@ -62,5 +62,8 @@ else:
 El codigo representa una base de datos que por el momento solo recibe las caracteristicas de dos empleados, esto se puede cambiar
 agregando un par de literales mas para que el proceso sea infinito, pero solo se reciben los datos, y al final solo se escribe el
 numero relacionado con la persona y con esto se imprime toda la info.
+
+Este codigo es casi igual que el pasado solo que le agregue un par de cosas para que tuviera un mejor funcionamiento, y para que 
+este fuera totalmente automatico
 ''' 
 
