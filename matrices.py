@@ -8,12 +8,12 @@ puerta = 1
 acumulador = 0
 while acumulador<numero:
     a = str(input("Inserte nombre completo: "))
-    b = str(input("Edad: "))
+    b = int(input("Edad: "))
     c = str(input("Sexo: "))
     d = str(input("Estado civil: "))
     e = str(input("Inserte cargo en la empresa: "))
     f = str(input("Nacionalidad: "))
-    g = str(input("Numero de Contacto: "))
+    g = int(input("Numero de Contacto: "))
 
     persona = [a,b,c,d,e,f,g]
     
